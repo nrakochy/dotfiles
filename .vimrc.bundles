@@ -1,0 +1,16 @@
+"installed via the Githubs
+call plug#begin('~/.vim/bundle')
+Plug 'bling/vim-airline'
+Plug 'scrooloose/syntastic'
+Plug 'scrooloose/nerdtree'
+Plug 'tpope/vim-fireplace'
+Plug 'vim-scripts/paredit.vim'
+Plug 'tpope/vim-surround'
+Plug 'venantius/vim-eastwood'
+Plug 'venantius/vim-cljfmt'
+
+if filereadable(expand('~/.vimbundle.local'))
+  source ~/.vimbundle.local
+endif
+
+call plug#end()
